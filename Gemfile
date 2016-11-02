@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 
 gem 'rails', '4.2.5.1'
 gem 'sass-rails', '~> 5.0'
@@ -10,6 +10,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'bootstrap-sass'
 gem 'devise', '~> 4.2'
+gem 'paperclip', '~> 4.2'
 
 group :development, :test do
      gem 'sqlite3'
