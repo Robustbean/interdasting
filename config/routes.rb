@@ -2,7 +2,8 @@ Rails.application.routes.draw do
   resources :pins
   resources :pins
   resources :pins
-  devise_for :users
+  devise_for :users, :controllers => { :registrations => "registrations" } 
+
   root "pages#home"
   get "about" => "pages#about" # creates about_path
 
